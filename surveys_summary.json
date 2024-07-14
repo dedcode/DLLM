@@ -1,0 +1,284 @@
+{
+    "dataframe_summary": {
+        "total_records": 144300,
+        "total_columns": 13,
+        "total_missing_values": "7881",
+        "missing_values_ratio": 0.0042,
+        "number_duplicates_records": "0",
+        "number_numerical_columns": 3,
+        "number_categorical_columns": 3,
+        "number_text_columns": 5,
+        "number_timestamp_columns": 2,
+        "number_boolean_columns": 0,
+        "sample_records": [
+            {
+                "Unnamed: 0": 105510,
+                "gender": "male",
+                "hit_answered_date": "2016-04-28 00:44:45.020000",
+                "hit_creation_date": "2016-04-28 00:40:07",
+                "household_income": "$10,000-$14,999",
+                "household_size": "1",
+                "location_city": "salem",
+                "location_country": "US",
+                "location_region": "ma",
+                "marital_status": "single",
+                "post_to_completion_secs": 278.0,
+                "worker_id": "9a62370e8624c6a4042f8be623a03bce",
+                "year_of_birth": 1965
+            },
+            {
+                "Unnamed: 0": 109995,
+                "gender": "female",
+                "hit_answered_date": "2016-03-13 05:23:02.547000",
+                "hit_creation_date": "2016-03-13 05:21:08",
+                "household_income": "$100,000 or more",
+                "household_size": "2",
+                "location_city": "pelican rapids",
+                "location_country": "US",
+                "location_region": "mn",
+                "marital_status": "married",
+                "post_to_completion_secs": 114.0,
+                "worker_id": "7744f377a729e29b1e368eb66e682a32",
+                "year_of_birth": 1957
+            },
+            {
+                "Unnamed: 0": 60795,
+                "gender": "male",
+                "hit_answered_date": "2017-07-23 02:50:50.750000",
+                "hit_creation_date": "2017-07-23 02:48:11",
+                "household_income": "$10,000-$14,999",
+                "household_size": "2",
+                "location_city": "glen rose",
+                "location_country": "US",
+                "location_region": "tx",
+                "marital_status": "single",
+                "post_to_completion_secs": 159.0,
+                "worker_id": "f02f9d85366404a887b6432d334e8e93",
+                "year_of_birth": 1983
+            },
+            {
+                "Unnamed: 0": 105368,
+                "gender": "male",
+                "hit_answered_date": "2016-04-29 10:43:20.666000",
+                "hit_creation_date": "2016-04-29 10:10:07",
+                "household_income": "Less than $10,000",
+                "household_size": "5+",
+                "location_city": "new delhi",
+                "location_country": "IN",
+                "location_region": "dl",
+                "marital_status": "single",
+                "post_to_completion_secs": 1993.0,
+                "worker_id": "6a3792fa14183fd606e534bcc856f71e",
+                "year_of_birth": 1989
+            },
+            {
+                "Unnamed: 0": 86389,
+                "gender": "female",
+                "hit_answered_date": "2016-11-08 03:13:42.173000",
+                "hit_creation_date": "2016-11-08 03:06:59",
+                "household_income": "$25,000-$39,999",
+                "household_size": "2",
+                "location_city": "amherst",
+                "location_country": "US",
+                "location_region": "ma",
+                "marital_status": "cohabitating",
+                "post_to_completion_secs": 403.0,
+                "worker_id": "b001c411060440432695c28e04d58de4",
+                "year_of_birth": 1995
+            }
+        ]
+    },
+    "column_statistics": {
+        "Unnamed: 0": {
+            "column_type": "numerical",
+            "count": 144300,
+            "unique": 144300,
+            "missing_values": 0,
+            "selectivity": 1.0,
+            "sample_values": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "minimum": "0",
+            "mean": 72149.5,
+            "standard Deviation": 41655.9663,
+            "25th percentile": 36074.75,
+            "50th percentile": 72149.5,
+            "75th percentile": 108224.25,
+            "maximum": "144299"
+        },
+        "gender": {
+            "column_type": "text",
+            "count": 144300,
+            "unique": 3,
+            "missing_values": 0,
+            "selectivity": 0.0,
+            "sample_values": [
+                "male",
+                "female",
+                "Female"
+            ],
+            "mode": "male",
+            "mode frequency": 73340
+        },
+        "hit_answered_date": {
+            "column_type": "timestamp",
+            "count": 144300,
+            "unique": 144115,
+            "missing_values": 0,
+            "selectivity": 0.9987,
+            "sample_values": [
+                "2019-05-03 16:00:40.819000",
+                "2019-05-03 15:22:31.302000",
+                "2019-05-03 15:19:18.785000",
+                "2019-05-03 15:07:54.495000",
+                "2019-05-03 15:02:13.826000"
+            ],
+            "minimum": "2015-03-26 11:47:28.877000",
+            "mean": "2017-04-01 13:08:38.552311808",
+            "maximum": "2019-05-03 16:00:40.819000"
+        },
+        "hit_creation_date": {
+            "column_type": "timestamp",
+            "count": 140641,
+            "unique": 140257,
+            "missing_values": 3659,
+            "selectivity": 0.9973,
+            "sample_values": [
+                "2019-05-03 15:33:09",
+                "2019-05-03 14:18:09",
+                "2019-05-03 15:18:10",
+                "2019-05-03 15:03:09",
+                "2019-05-03 14:48:09"
+            ],
+            "minimum": "2015-03-26 11:33:43",
+            "mean": "2017-04-02 14:24:17.750001664",
+            "maximum": "2019-05-03 15:33:09"
+        },
+        "household_income": {
+            "column_type": "text",
+            "count": 144300,
+            "unique": 8,
+            "missing_values": 0,
+            "selectivity": 0.0001,
+            "sample_values": [
+                "$10,000-$14,999",
+                "$15,000-$24,999",
+                "Less than $10,000",
+                "$40,000-$59,999",
+                "$75,000-$99,999"
+            ],
+            "mode": "$40,000-$59,999",
+            "mode frequency": 26818
+        },
+        "household_size": {
+            "column_type": "text",
+            "count": 144300,
+            "unique": 5,
+            "missing_values": 0,
+            "selectivity": 0.0,
+            "sample_values": [
+                "4",
+                "1",
+                "3",
+                "2",
+                "5+"
+            ],
+            "mode": "2",
+            "mode frequency": 38423
+        },
+        "location_city": {
+            "column_type": "unknown",
+            "count": 144024,
+            "unique": 7426,
+            "missing_values": 276,
+            "selectivity": 0.0516,
+            "sample_values": []
+        },
+        "location_country": {
+            "column_type": "unknown",
+            "count": 144297,
+            "unique": 155,
+            "missing_values": 3,
+            "selectivity": 0.0011,
+            "sample_values": []
+        },
+        "location_region": {
+            "column_type": "unknown",
+            "count": 144024,
+            "unique": 485,
+            "missing_values": 276,
+            "selectivity": 0.0034,
+            "sample_values": []
+        },
+        "marital_status": {
+            "column_type": "unknown",
+            "count": 144292,
+            "unique": 7,
+            "missing_values": 8,
+            "selectivity": 0.0,
+            "sample_values": []
+        },
+        "post_to_completion_secs": {
+            "column_type": "numerical",
+            "count": 140641,
+            "unique": 10927,
+            "missing_values": 3659,
+            "selectivity": 0.0777,
+            "sample_values": [
+                1651.0,
+                3862.0,
+                68.0,
+                285.0,
+                844.0
+            ],
+            "minimum": -3526.0,
+            "mean": 1515.0538,
+            "standard Deviation": 2812.1853,
+            "25th percentile": 134.0,
+            "50th percentile": 398.0,
+            "75th percentile": 1589.0,
+            "maximum": 69282.0
+        },
+        "worker_id": {
+            "column_type": "text",
+            "count": 144300,
+            "unique": 62166,
+            "missing_values": 0,
+            "selectivity": 0.4308,
+            "sample_values": [
+                "13c7ec14840ef2e82864af3a4028a068",
+                "ec0156d3afc18d6e1e5a1ad583c4e1eb",
+                "6405f43416f7f9f430e45762996d27c0",
+                "d007ae7404843d9d53d5c33e9b6b9071",
+                "dfbeecb4f47a6c8e1b4d0e87227fbbae"
+            ],
+            "mode": "1eea49ef4ad993a73014bd8f43a8064f",
+            "mode frequency": 46
+        },
+        "year_of_birth": {
+            "column_type": "numerical",
+            "count": 144300,
+            "unique": 101,
+            "missing_values": 0,
+            "selectivity": 0.0007,
+            "sample_values": [
+                1989,
+                1984,
+                1995,
+                1992,
+                1987
+            ],
+            "minimum": "1910",
+            "mean": 1982.063,
+            "standard Deviation": 11.1992,
+            "25th percentile": 1977.0,
+            "50th percentile": 1985.0,
+            "75th percentile": 1990.0,
+            "maximum": "2010"
+        }
+    }
+}
